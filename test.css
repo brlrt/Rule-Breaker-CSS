@@ -1,0 +1,4001 @@
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/actions.css */
+
+
+.ep_act_bar {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.ep_act_bar table {
+	margin: auto;
+}
+
+.ep_act_list {
+	margin: auto;
+}
+
+td.ep_act_list_button {
+	text-align: right;
+	padding: 0.25em 0 0.25em 0;
+}
+
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/blister.css */
+
+
+/* EPrints 3 blister bar style */
+
+/* ep_blister */
+
+
+
+.ep_blister_bar {
+	margin: auto;
+}
+.ep_blister_join {
+	background-image: url(images/blister_arrow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 20px;
+}
+.ep_blister_node {
+	padding: 3px;
+	text-align: center;
+	border: solid 1px #cccccc;
+	background-image: url(images/gray_bar.png);
+}
+.ep_blister_node_selected {
+	padding: 3px;
+	text-align: center;
+	border: solid 1px #204f76;
+	background-image: url(images/blue_bar.png);
+	color: #ffffff;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/columns.css */
+
+
+/* paginated columns */
+
+.ep_columns {
+	margin: auto;
+}
+
+td.ep_columns_cell {
+	border-left: 1px dashed #ccc;
+	border-bottom: 1px solid #ccc;
+}
+td.ep_columns_cell_first {
+}
+td.ep_columns_cell_last {
+	border-right: 1px dashed #ccc;
+}
+
+th.ep_columns_title {
+	background: url(images/gray_bar.png) repeat-x;
+	font-weight: normal;
+	border-top: solid 1px #888;	
+	border-bottom: solid 1px #888;	
+	border-left: solid 1px #888;	
+}
+th.ep_columns_title a {
+	color: #000;
+	font-weight: normal;
+}
+th.ep_columns_title_last {
+	border-right: solid 1px #888;	
+}
+
+
+td.ep_columns_alter {
+	background: url(images/gray_bar.png) repeat-x;
+	border-left: solid 1px #888;
+	border-bottom: solid 1px #888;
+}
+td.ep_columns_alter_last {
+	border-right: solid 1px #888;
+}
+
+td.ep_columns_no_items {
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 0.5em;
+	text-align: center;
+	font-size: 120%;
+}
+
+.ep_columns_add {
+	text-align: center;
+}
+
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/drop.css */
+
+
+/* style for ajax suggestion drops */
+
+.ep_drop_target {
+}
+
+.ep_drop_target ul {
+	margin: 0px;
+	padding: 4px;
+	list-style: none;
+	background-color: white;
+	border: 1px dotted #888;
+	z-index: 6;
+}
+	
+.ep_drop_target ul li {
+	margin: 0px;
+	padding: 3px;
+	list-style: none;
+	border-top: 1px dashed #ccc;
+	cursor: pointer;
+	width: 100%;
+}
+.ep_drop_target ul li.ep_first {
+	border-top: none;
+}
+
+.ep_drop_target ul li.selected {
+	background-color: #e0e0ff;
+}
+
+.ep_drop_target ul ul {
+	display: none;
+}
+
+.ep_drop_loading {
+	margin: 0px;
+	text-align: center;
+	background-color: white;
+	border: 1px dotted #888;
+	z-index: 6;
+	position: absolute;
+}
+.ep_drop_loading img {
+	padding: 8px;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/edshare_core.css */
+
+p.ep_cs_current_header
+{
+	padding: 5px;
+	font-weight: bold;
+}
+
+td.ep_cs_checktable_first, td.ep_cs_checktable_first
+{
+	
+	border-top: 1px dashed #C4CAF2;
+}
+
+td.ep_cs_checktable_left, td.ep_cs_checktable_right
+{
+	border-bottom: 1px dashed #C4CAF2;
+	padding: 2px;
+}
+
+.ed_taglite_maintable{
+	text-align:center;
+}
+
+.ep_taglite_pickup_container{
+	text-align:center;
+}
+.ed_taglite_bottom{
+	padding: 10px;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/edshare_perms.css */
+
+/* EdShare Perms */
+
+div.edshare_perms_staffonly_container
+{
+	text-align:center;
+	margin-top: 1em;
+	background-color:white;
+	border:1px solid #C4D7ED;
+	padding: 5px;
+}
+
+div.edshare_perms_ajax_box
+{
+	width: 60%;
+}
+
+a.edshare_perms_ajax_link
+{
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+div.edshare_perms_selected_users_box,div.edshare_perms_selected_depts_box
+{
+        line-height: 2em;
+        padding: 15px 5px 5px 15px;
+	background-color: #F9FAFD;
+}
+
+div.edshare_perms_selected_users_title,div.edshare_perms_selected_depts_title
+{
+        margin-top: 0.5em;
+        padding: 5px;
+	background-color: #F9FAFD;
+        font-weight: bold;
+}
+
+
+div.edshare_perms_main
+{
+	margin-bottom: 1em;
+}
+
+div.edshare_perms_options
+{
+        padding: 10px 10px 3px 10px;
+        text-align:center;
+}
+
+div.edshare_perms_new_user,div.edshare_perms_new_dept
+{
+        background-color: #F9FAFD;
+}
+
+div.edshare_perms_nonselected
+{
+        display: none;
+        padding: 10px 10px 10px 10px;
+
+}
+
+div.edshare_perms_selected
+{
+        display: block;
+        padding: 10px 10px 10px 10px;
+        border: 1px solid #D8DBEF; 
+        background-color: #F9FAFD;
+}
+
+a:hover.edshare_perms_nonselected
+{
+        text-decoration:none;
+        padding: 5px 10px 3px 10px;
+        color: #000000;
+        font-weight: normal;
+        background-color: #F9FAFD;
+}
+a.edshare_perms_nonselected
+{
+        text-decoration:none;
+        padding: 5px 10px 3px 10px;
+        color: #000000;
+        font-weight: normal;
+}
+
+a.edshare_perms_selected,a:hover.edshare_perms_selected
+{
+        text-decoration:none;
+        padding: 5px 10px 5px 10px;
+        color: #000000;
+        border-top:1px solid #D8DBEF; 
+        border-left: 1px solid #D8DBEF;
+        border-right: 1px solid #D8DBEF;
+	background-color: #F9FAFD;
+        font-weight: bold;
+}
+
+.perms_cross{
+	background:url("/style/images/xit.gif") repeat scroll 0 0 transparent;
+	border:0 none;
+	cursor:pointer;
+	height:10px;
+	padding:0;
+	width:10px;
+	vertical-align:middle;
+	display: inline;
+}
+
+a:hover .perms_cross {
+	background:url("/style/images/xit.gif") repeat scroll -10px 0 transparent;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/edshare_toolbox.css */
+
+div#ep_edshare_toolbox {
+	text-align: center;
+	padding: 10px;	
+}
+
+div#ep_edshare_toolbox ul {
+	list-style: none;
+	padding:0;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/fields.css */
+
+
+/* style for metafields */
+
+dl.ep_field_set_long dt label {
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+dl.ep_field_set_long dd {
+	margin-bottom: 0.5em;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/form.css */
+
+
+/* Form related styles */
+
+form {
+	display: inline;
+}
+
+select, input.ep_form_text, textarea {
+	padding: 1px 2px 1px 2px;
+	margin-right: 4px;
+	border: solid 1px #ccc;
+}
+
+.ep_form_example {
+	font-weight: bold;
+	color: blue;
+}
+
+/* buttons */
+
+.ep_form_button_bar {
+	text-align: center;
+	padding: 4px;
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ep_form_action_button, .ep_form_internal_button {
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #e0e0ff #808080 #808080 #e0e0ff;
+	background-image: url(images/blue_bar.png);
+	background-color: #1f4f76;
+	color: white;
+	font-weight: normal;
+}
+
+/* form fields */
+
+.ep_form_field_help {
+        font-size: small ;
+}
+
+.ep_form_field_name {
+        padding-top: 1em;
+	font-weight: bold;
+}
+
+.ep_form_field_input {
+        padding-bottom: 3pt;
+}
+
+/* input fields grid */
+
+
+.ep_form_input_grid th {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 80%;
+}
+.ep_form_input_grid td {
+	vertical-align: middle;
+}
+
+td.ep_form_input_grid_pos {
+	padding-right: 4px;
+}
+td.ep_form_input_grid_arrows {
+	white-space: nowrap;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+
+td.ep_form_input_grid_wide {
+	text-align: left;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/general.css */
+
+
+body {
+	margin: 1em;
+	font-family: Arial,Sans-serif;
+	font-size: 80%;
+}
+
+.ep_no_js { 
+	display: none; 
+}
+
+.ep_no_js_inline { 
+	display: none; 
+}
+
+.ep_no_js_table_cell { 
+	display: none; 
+}
+
+.ep_hide { 
+	display: none; 
+}
+
+h1 {
+	margin: 0px 0px 10px 0px;
+        font: bold 130% Arial,Sans-serif;
+	text-align: center;
+        color: #606060;
+}
+
+h2 {
+        font: bold 110% Arial,Sans-serif;
+        color: #606060;
+}
+
+h3 {
+        font: 120% Arial,Sans-serif;
+        color: #606060;
+}
+
+h4 {
+        font: 100% Arial,Sans-serif;
+        color: #606060;
+}
+
+hr {
+	border: 0px;
+	color: #ccc;
+	background-color: #ccc;
+	height: 2px;
+}
+
+.ep_required {
+}
+
+.ep_toggle a, a.ep_toggle {
+	text-decoration: none;
+	color: #44c;
+}
+
+th.ep_row {
+	border-bottom: dashed #bbf 1px;
+	padding-right: 0.25em;
+	text-align: right;
+	width: 20%;
+}
+td.ep_row {
+	border-left: dashed #bbf 1px;
+	border-bottom: dashed #bbf 1px;
+	padding-left: 0.25em;
+	text-align: left;
+}
+th.ep_title_row {
+	border-top: solid 1px #999999;
+	border-bottom: solid 1px #999999;
+	padding: 0.1em 0.5em 0.1em 0.5em;
+	font-size: 100%;
+	height: 2em;
+	background-image: url(images/gray_bar.png);
+	background-color: #808080;
+	color: #333;
+	font-weight: normal;
+}
+
+.ep_highlight {
+	padding: 0.5em;
+	border: solid 2px #ff8888;
+	background-color: #ffeeee;
+}
+
+.ep_block {
+	width: auto;
+	margin: 0.25em auto 0.25em auto;
+	text-align: center;
+}
+.ep_block td {
+	text-align: left;
+}
+ul {
+	text-align: left;
+}
+.ep_doc_icon
+{
+	padding: 2px;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/icontable.css */
+
+
+table.ep_icontable {
+	border-collapse: collapse;
+}
+table.ep_icontable th {
+	border: solid 1px #999;
+	background-color: #fff;
+	text-align: center;
+}
+table.ep_icontable td {
+	padding-left: 4px;
+	border: solid 1px #999;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/items.css */
+
+
+/* Items Screen */
+
+.ep_items_filters {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.ep_items_filters img {
+	border-width: 0px;
+	margin-left: 10px;
+	vertical-align: -2px;
+}
+
+.ep_items_filters a {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+td.ep_columns_cell_inbox {
+	background-color: #ffc;
+	border-left: 1px dashed #ccc;
+	border-bottom: 1px solid #888;
+}
+td.ep_columns_cell_buffer {
+	background-color: #dde;
+	border-left: 1px dashed #ccc;
+	border-bottom: 1px solid #888;
+}
+td.ep_columns_cell_archive {
+	background-color: #cfc;
+	border-left: 1px dashed #ccc;
+	border-bottom: 1px solid #888;
+}
+td.ep_columns_cell_deletion {
+	background-color: #ccc;
+	border-left: 1px dashed #ccc;
+	border-bottom: 1px solid #888;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/latest.css */
+
+
+/* latest and latest tool */
+
+div.ep_latest_result {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+div.ep_latest_tool_result {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/lightbox.css */
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+/* #hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;} */
+#hoverNav a{ outline: none;}
+
+/* #prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(images/lightbox/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(images/lightbox/nextlabel.gif) right 15% no-repeat; } */
+
+#hoverNav { height: 30px; }
+#prevLink, #nextLink { width: 49%; height: 100%; display: block; }
+#prevLink { left: 0; float: left; background: url(images/lightbox/prevlabel.gif) left 0 no-repeat; }
+#nextLink { right: 0; float: right; background: url(images/lightbox/nextlabel.gif) right 0 no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
+#lightboxMovie { width: 320px; height: 264px; }
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/mail.css */
+
+
+
+.ep_mail_view {
+	border: dashed 2px #ccc;
+	margin-top: 20px;
+	background-color: #eee;
+}
+
+.ep_mail_header {
+	margin: 4px; 
+	padding: 2px;
+	font-family: monospace;
+}
+
+.ep_mail_body {
+	margin: 4px;
+	padding: 2px;
+}
+
+.ep_mail_body textarea {
+	background-color: #ccc;
+	border: solid #888 1px;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/meprints.css */
+
+div.ep_user_citation_picture
+{
+	display: inline;
+}
+
+div:hover.ep_column_item
+{
+	cursor:move;
+}
+
+.ep_name_homepage
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ep_profile_column {
+	text-align: left;
+	float: left;
+	display: inline;
+	margin: 10px;
+	width: 335px;
+	min-height: 300px;
+}
+
+.ep_name_citation .person_name {
+	font-weight: bold;
+}
+
+.ep_user_profile_userdetails_section_heading {
+	font-weight: bold;
+}
+
+.meprints_embed_link {
+	float: right;
+	cursor: pointer;
+	font-size: 0.8em;
+	text-decoration: underline;
+}
+.meprints_widget_wrapper{
+	width:710px;
+	margin: auto;
+}
+
+.meprints_box 
+{
+        margin-bottom: 10px
+}
+.meprints_box_title 
+{
+        background-image: url(images/toolbox_title.png);
+        font-weight: normal;
+        border-left: 2px solid #e0e0ff;
+        padding: 2px 6px 2px 6px;
+        border: solid 1px #d8dbef;
+        font-weight: bold;
+        font-size: 115%;
+}
+.meprints_box_body 
+{
+        padding: 2px 6px 2px 6px;
+        border-left: 2px solid #e0e0ff;
+        border-right: 2px solid #e0e0ff;
+        border-bottom: 2px solid #e0e0ff;
+        background-color: #eee;
+}
+
+.ep_core_widgets{
+	width:710px;
+	border:0;
+	margin:auto;
+}
+
+#left_core_widget
+{
+	width: 50%;
+	text-align: left;
+}
+
+#right_core_widget
+{
+	width: 50%;
+}
+
+.meprints_details_name
+{
+	font-weight:bold;
+	font-size:16px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	color: #183152;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/messages.css */
+
+
+/* Message styles - used to provide alerts and errors */
+
+.ep_msg_message, .ep_msg_warning, .ep_msg_error, .ep_msg_other {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ep_msg_message_icon, .ep_msg_warning_icon, .ep_msg_error_icon {
+	padding: 10px;
+}
+/*
+
+Not currently using titles
+
+.ep_msg_message_title {
+	color: #70cf70;
+	padding: 2px 10px 2px 10px;
+}
+.ep_msg_error_title {
+	color: #ff8080;
+	padding: 2px 10px 2px 10px;
+}
+.ep_msg_warning_title {
+	color: #cf9070;
+	padding: 2px 10px 2px 10px;
+}
+
+*/
+
+.ep_msg_message_content {
+	background-image: url(images/green_back.png);
+	background-color: #c0ffc0;
+	border: solid 1px #80ff80;
+}
+
+.ep_msg_error_content {
+	background-image: url(images/red_back.png);
+	background-color: #ffe0e0;
+	border: solid 1px #ffc0c0;
+}
+
+.ep_msg_warning_content {
+	background-image: url(images/orange_back.png);
+	background-color: #ffe0c0;
+	border: solid 1px #ffc080;
+}
+
+.ep_msg_other_content {
+	background-image: url(images/blue_back.png);
+	background-color: #9999FF;
+	border: solid 1px #9999FF;
+}
+
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/multi.css */
+
+
+
+/* 
+   Styles for the multi-field component.
+
+   ep_multi_*
+
+*/
+
+table.ep_multi
+{
+	width: 100%;
+}
+
+tr.ep_first th.ep_multi_heading,
+tr.ep_first td.ep_multi_input, 
+tr.ep_first td.ep_multi_help 
+{
+	border-top: none;
+}
+
+th.ep_multi_heading
+{
+	border-top: dashed #bbf 1px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 0.5em;
+	text-align: right;
+}
+
+td.ep_multi_input
+{
+	border-top: dashed #bbf 1px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-left: dashed #bbf 1px;
+}
+
+td.ep_multi_help
+{
+	white-space: nowrap;
+	border-top: dashed #bbf 1px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	vertical-align: top;
+	text-align: right;
+}
+
+/* help bits */
+
+.ep_multi_inline_help 
+{
+	padding-bottom: 0.5em;
+}
+	
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/preview.css */
+
+
+/* 
+   Styles for the file preview popup.
+
+   ep_preview_*
+
+*/
+
+
+.ep_preview
+{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400px;	
+}
+
+.ep_preview table
+{
+	border: solid 1px black;
+	background-color: white;
+	padding: 4px;
+	margin: auto;
+}
+
+.ep_preview_title
+{
+	padding-top: 3px;
+	text-align: center;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/preview_plus.css */
+
+#ep_preview_plus_area{
+	background-color: #E0E0D5;
+	border:1px solid #B3B7BA;
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	overflow:auto;
+	padding: 5px 5px 0 5px;
+}
+
+.ep_preview_plus_tile{
+	text-align: center;
+	overflow: hidden;
+	padding: 2px;
+	margin: 2px;
+	font-size: 80%;
+	width:110px;
+	height:110px;
+	border: 1px solid #E0E0D5;
+	cursor: pointer;
+}
+
+.ep_inplace_tile_container{
+	width:110px;
+	height:110px;
+}
+
+.ep_preview_plus_controls{
+	margin:auto;
+}
+
+#ep_inplace_controls_container{
+	overflow:auto;
+	width:100%;
+}
+
+#ep_inplace_ajaxload_image
+{
+	padding-top: 150px;
+	margin:auto;
+	display:block;	
+}
+
+#ep_inplace_previous_button{
+	width:60px;
+}
+.ep_inplace_previous_button_enabled{
+	background-image:url(/style/images/left_enabled.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.ep_inplace_previous_button_disabled{
+	background-image:url(/style/images/left_disabled.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#ep_inplace_next_button{
+	width:60px;
+}
+.ep_inplace_next_button_enabled{
+	background-image:url(/style/images/right_enabled.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.ep_inplace_next_button_disabled{
+	background-image:url(/style/images/right_disabled.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.ep_inplace_no_preview{
+	width: 300px;
+	padding: 50px;
+	margin: 40px auto;
+	overflow:hidden;
+	background-color:white;
+}
+
+.ep_inplace_page{
+	padding-bottom: 5px;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/progress.css */
+
+div#progress {
+	margin: 0px auto;
+	width: 382px;
+}
+
+.progressmeter {
+    font-size: 10pt;
+    text-align: center;
+}
+
+.progressmeter table {
+}
+
+.progressmeter th {
+    font-weight: bold;
+    text-align: right;
+}
+
+.progressmeter td {
+    text-align: left;
+}
+
+.finished {
+    color: #667799;
+}
+
+.progressmeter .meter {
+    position: relative;
+    background-color: lightgrey;
+    border: 2px solid #667799;
+    height: 20px;
+    width: 380px;
+}
+
+.progressmeter .meter .amount {
+	margin: 0px auto 0px 0px;
+    background-color: #667799;
+    width: 0px;
+    height: 20px
+}
+
+.progressmeter .meter .percent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    z-index: 1000;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/repostats.css */
+
+.repostats_toptable_cell
+{
+	text-align: left;
+}
+
+.repostats_dashboard_errormsg
+{
+	padding: 5px;
+	margin: 1em auto;
+	border: 1px solid #c14848;
+	background-color: #e05353;
+	color: #000000;
+	font-size:12px;
+	font-weight: bold;
+}
+
+.repostats_container_graph, .repostats_container_piechart
+{
+	margin: auto;
+	width: 500px;
+	height: 350px;
+}
+
+.repostats_container_toptable
+{
+	width: 100%;
+}
+
+.repostats_dashboard_container
+{
+	margin: auto;
+	width: 500px;
+	height: 350px;
+}
+
+.repostats_graph_container, .repostats_container_piechart
+{
+	margin:auto;
+	width: 300px;
+	height: 200px;
+}
+
+.repostats_container_counter
+{
+	display:inline;
+}
+
+.repostats_error_nostats
+{
+	padding: 5px;
+	color: red;
+}
+
+img.repostats_sparkline_container
+{
+	padding:1px;
+	margin:0px;
+	border: 1px solid #ccc;
+	height: 30px;
+	width: 100px;
+}
+
+h2.repostats_header
+{
+	font-size: 16px;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/savedsearches.css */
+
+
+
+table.ep_savedsearches {
+	margin: 10px auto 10px auto;
+}
+
+table.ep_savedsearches th {
+	border-bottom: 1px solid #ccc;
+}
+table.ep_savedsearches td {
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/search.css */
+
+
+/* EPrints 3 search form style */
+
+
+
+/* buttons are on the form, controls on the results */
+.ep_search_buttons, .ep_search_controls, .ep_search_controls_bottom {
+	border-top: 1px solid rgb(216, 219, 239); 
+	border-bottom: 1px solid rgb(216, 219, 239);
+	text-align: center;
+	background: #e7e9f5 url(images/toolbox.png) repeat-x;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+}
+
+.ep_search_fields {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.ep_search_fields th {
+	padding: 4px;
+}
+	
+.ep_search_fields td {
+	padding: 4px;
+}
+	
+
+.ep_search_control
+{
+	padding: 0px 4px 0px 4px;
+}
+
+.ep_search_export {
+	margin: 0.25em auto 0.25em auto;
+	text-align: center;
+}
+
+.ep_search_reorder {
+	margin: 0.4em auto 0 auto;
+	text-align: center;
+}
+
+.ep_search_tool {
+	white-space: nowrap;
+}
+.ep_search_tool img {
+	vertical-align: -2px;
+	padding-left: 0.5em;
+}
+.ep_search_tool a {
+	text-decoration: none;
+	color: #888;
+}
+
+
+.ep_search_feed {
+	white-space: nowrap;
+}
+.ep_search_feed img {
+	vertical-align: -2px;
+	padding-left: 0.5em;
+}
+.ep_search_feed a {
+	text-decoration: none;
+	color: #888;
+}
+
+.ep_search_results
+{
+	margin: 1em 0 1em 0;
+}
+
+.ep_search_desc
+{
+	text-align: center;
+	margin: 0.25em 0 0 0;
+}
+
+.ep_search_result td
+{
+	padding: 4px;
+	border-bottom: dashed #bbf 1px;
+}
+
+.ep_paginate_list
+{
+	margin: auto;
+	display: table;
+}
+
+.ep_search_field_name
+{
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/sneep.css */
+
+/* Sneep Tabs */
+div#ep_sneep_main ul#ep_sneep_navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0 10px 0 10px;
+}
+
+div#ep_sneep_main ul#ep_sneep_navigation li.tab {
+	display: inline;
+	padding: 0 10px;
+	margin: 0 5px;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+}
+
+div#ep_sneep_main ul#ep_sneep_navigation li.tab a {
+}
+
+.ep_sneep_input {
+	font-family: Arial;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #ccc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.ep_sneep_input:focus {
+	outline: 0;
+	border-color: #000;
+}
+
+.ep_sneep_input_content {
+	width: 600px;
+	height: 180px;
+}
+
+/* Sneep Positioning Scheme */
+/* Comment out to disable */
+div.ep_sneep {
+	padding: 5px 5px;
+	border: 1px solid #DFDFDF;
+}
+
+div.ep_sneep div.ep_sneep_comment {
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+div.ep_sneep div.ep_sneep_comment h4 {
+	margin: 0;
+	padding: 0;
+	padding-left: 5px;
+}
+div.ep_sneep div.ep_sneep_comment h4 .person_name{
+	font-style: normal;
+}
+
+div.ep_sneep div.ep_sneep_comment p {
+	margin: 0;
+	padding: 5px 5px 5px 15px;
+}
+
+div.ep_sneep textarea {
+	width: 95%;
+	height: 120px;
+}
+
+.ep_sneep_note_input_title{
+	width: 70%;
+}
+
+.ep_sneep_controls{
+	float: right;
+	font-style: normal;
+	
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/subjectinput.css */
+
+
+/* 
+   Styles for the subject component.
+
+   ep_subjectinput_*
+
+*/
+
+.ep_subjectinput_toggle {
+	text-decoration: none;
+	color: #000000;
+}
+
+.ep_subjectinput_selections {
+	margin: 0.5em auto 0.5em auto;
+	margin-top: 0.5em; 
+	padding: 0.5em; 
+}
+
+.ep_subjectinput_selected {
+	font-weight: bold;
+}
+
+.ep_subjectinput_selected_subject {
+	font-weight: bold;
+}
+
+ul.ep_subjectinput_subjects {
+	list-style: none;
+}
+ul.ep_subjectinput_subjects li {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	list-style: none;
+}
+ul.ep_subjectinput_subjects img {
+	vertical-align: -2px;
+}
+
+
+.ep_subjectinput_selections {
+	padding-bottom: 10px;
+	border-bottom: dashed #808080 1px; 
+	margin-bottom: 10px;
+}
+.ep_subjectinput_selections td.ep_first {
+	border-top: none;
+}
+
+.ep_subjectinput_selections td {
+	border-top: dashed #ccc 1px; 
+}
+
+.ep_subjectinput_results {
+	border: dashed #c8cbdf 1px; 
+	margin-top: 0.5em; 
+	padding: 0.5em; 
+	background-color: white;
+	list-style: none;
+}
+
+.ep_subjectinput_results td.ep_first {
+	border-top: none;
+}
+
+.ep_subjectinput_results td {
+	border-top: dashed #ccc 1px; 
+}
+
+.ep_subjectinput_add_button, .ep_subjectinput_remove_button {
+	border: solid blue 1px;
+	padding: 1px;
+	background-color: transparent;
+	font-size: 70%;
+	color: blue;
+}
+
+
+.ep_subjectinput_searchbar {
+	text-align: center;
+}
+
+/* End of subject component section */
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/summary.css */
+
+
+/* Item Summary */
+
+.ep_summary_content {
+}
+.ep_summary_content_top {
+}
+.ep_summary_content_bottom {
+}
+.ep_summary_content_left {
+	float: left;
+}
+.ep_summary_content_right {
+	float: right;
+}
+.ep_summary_content_after {
+	clear: both;
+}
+
+
+.ep_summary_content_left .ep_summary_box {
+	width: 200px;
+	margin-right: 10px;
+}
+.ep_summary_content_right .ep_summary_box {
+	width: 200px;
+	margin-left: 10px;
+}
+
+
+.ep_summary_box {
+	margin-bottom: 10px
+}
+.ep_summary_box_title {
+	background-image: url(images/toolbox_title.png);
+	font-weight: normal;
+	border-left: 2px solid #e0e0ff;
+	padding: 2px 6px 2px 6px; 
+	border: solid 1px #d8dbef;
+	font-weight: bold;
+	font-size: 115%;
+}
+.ep_summary_box_body {
+	padding: 2px 6px 2px 6px; 
+	border-left: 2px solid #e0e0ff;
+	border-right: 2px solid #e0e0ff;
+	border-bottom: 2px solid #e0e0ff;
+	background-color: #eee;
+}
+.ep_summary_box_title a {
+	text-decoration: none;
+}
+.ep_summary_box_title img
+{
+	vertical-align: -1px;
+}
+
+
+
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/surround.css */
+
+
+/* EPrints 3 default workflow component-surround style */
+
+/* ep_sr */
+
+.ep_sr_component {
+	padding: 0px;
+	background-color: transparent;
+	margin-top: 10px;
+}
+.ep_sr_component .ep_sr_title_bar {
+	background-image: url(images/toolbox_title.png);
+	padding: 2px 6px 2px 6px; 
+	border-left: solid 1px #d8dbef;
+	border-top: solid 1px #d8dbef;
+	border-right: solid 1px #d8dbef;
+}
+
+.ep_sr_component .ep_sr_title_bar table {
+}
+.ep_sr_component .ep_sr_title {
+	font-weight: bold;
+	font-size: 115%;
+	color: #444;
+}
+.ep_sr_component .ep_sr_content {
+	clear: both;
+	background: #e7e9f5 url(images/toolbox.png) repeat-x;
+	border: solid 1px #d8dbef;
+	padding: 6px;
+}
+
+/* collapse bar */
+
+.ep_sr_collapse_bar {
+	background-image: url(images/toolbox_title.png);
+	padding: 2px 6px 2px 6px; 
+	border: solid 1px #d8dbef;
+	font-weight: bold;
+	font-size: 115%;
+	margin-top: 10px;
+}
+.ep_sr_collapse_bar a {
+	text-decoration: none;
+}
+.ep_sr_title a {
+	text-decoration: none;
+}
+.ep_sr_collapse_link img
+{
+	vertical-align: -1px;
+}
+
+/* help style - not primetime */
+
+.ep_sr_component .ep_sr_help {
+	margin-bottom: 8px;
+}
+.ep_sr_component .ep_sr_show_help {
+	white-space: nowrap;
+}
+.ep_sr_component .ep_sr_show_help a {
+	text-decoration: none;
+}	
+.ep_sr_component .ep_sr_hide_help {
+	white-space: nowrap;
+}
+.ep_sr_component .ep_sr_hide_help a {
+	text-decoration: none;
+}	
+.ep_sr_component .ep_sr_title_bar {
+}
+.ep_sr_show_help img {
+	vertical-align: -2px;
+}
+.ep_sr_hide_help img {
+	vertical-align: -2px;
+}
+
+
+/* used for multi, maybe should be elsewhere */
+.ep_sr_component .ep_sr_help_chunk {
+	border-bottom: 1px solid #888;
+	padding-bottom: 4px; 
+	margin-bottom: 4px;
+}
+
+.ep_sr_component .ep_form_input_grid {
+	margin: auto;
+}
+.ep_multi_input .ep_form_input_grid {
+	margin-left: 0px;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/tabs.css */
+
+
+/* Tab Bar */
+
+table.ep_tab_bar {
+	margin-top: 10px;
+	width: 100%;
+}
+
+td.ep_tab {
+	background-color: #e0e0ff;
+	text-align: center;
+	border: solid #d8dbef 1px;
+	background-image: url(images/gray_bar.png);
+}
+td.ep_tab a {
+	display: block;
+	padding: 2px 8px 4px 8px;
+	text-decoration: none;
+	color: #000000;
+}
+
+td.ep_tab_selected {
+	text-align: center;
+	background-color: #ffffff;
+	border-left: solid #d8dbef 1px;
+	border-top: solid #d8dbef 1px;
+	border-right: solid #d8dbef 1px;
+	border-bottom: solid #ffffff 1px;
+}
+td.ep_tab_selected a {
+	text-decoration: none;
+	padding: 2px 8px 4px 8px;
+	color: #000000;
+}
+
+td.ep_tab_spacer {
+	border-bottom: solid #d8dbef 1px;
+	width: 20px;
+}
+
+.ep_tab_panel {
+	border-right: solid #d8dbef 1px;
+	border-bottom: solid #d8dbef 1px;
+	border-left: solid #d8dbef 1px;
+	background: #e7e9f5 url(images/toolbox.png) repeat-x;
+	padding: 12px;
+	clear: both;
+}
+
+table.ep_tab_bar a {
+	text-decoration: none;
+}
+
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/template.css */
+
+
+/* EPrints 3 template styles */
+/* prefix all styles with ep_tm */
+
+.ep_tm_logo img {
+	float: right;
+	padding-bottom: 4px;
+	border-style: none;
+}
+
+.ep_tm_archivetitle {
+        font: 40px Arial,Sans-serif;
+	color: #269ae3;
+	text-decoration: none;
+}
+
+.ep_tm_main {
+        margin: 1em;
+}
+
+hr.ep_tm_last {
+	color: #240f78;
+	background-color: #240f78;
+}
+
+.ep_tm_footer {
+	clear: both;
+}
+
+/* Menu Bar */
+
+ul.ep_tm_menu, ul.ep_tm_key_tools {
+	clear: both;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.ep_tm_menu {
+	background: #204f76;
+	background-image: url(images/blue_bar.png);
+}
+
+ul.ep_tm_menu li, ul.ep_tm_key_tools li {
+	list-style: none;
+	display: inline;
+}
+
+ul.ep_tm_menu li {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: solid 2px white;
+	font-weight: bold;
+}
+
+ul.ep_tm_menu li:hover {
+	background: #279ae2;
+}
+
+ul.ep_tm_menu li a, ul.ep_tm_key_tools li a {
+}
+
+ul.ep_tm_menu li a {
+	text-decoration: none;
+	color: white;
+}
+ul.ep_tm_menu li a:visited {
+	color: white;
+}
+
+/* end of menu bar */
+
+/* Action Menu Bar */
+
+ul.ep_tm_key_tools li {
+	padding: 0px .5em;
+	border-left: 1px solid #666;
+}
+
+ul.ep_tm_key_tools li:first-child {
+	padding-left: 0px;
+	border-left: none;
+}
+
+/* end of Action Menu Bar */
+
+/* Search bar */
+
+.ep_tm_searchbar {
+	color: #606060;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top: solid 4px white;
+	background: #ccc;
+	background-image: url(images/gray_bar.png);
+}
+
+.ep_tm_searchbarbutton {
+	text-align: center;
+	background-image: url(images/blue_bar.png);
+	background-color: #1f4f76;
+	color: white;
+	font-weight: normal;
+	font-size: 80%;
+	padding: 0px;
+}
+
+.ep_tm_searchbarbox {
+	font-size: 80%;
+	padding: 2px;
+	border: #606060 1px solid;
+}
+
+/* end of search bar */
+
+#ep_tm_languages {
+	display: inline;
+}
+#ep_tm_languages a {
+	margin-left: 4px;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/toolbox.css */
+
+
+/* Toolbox styles - used to subdivide some content */
+
+.ep_toolbox {
+	margin-bottom: 10px;
+}
+
+.ep_toolbox_title {
+	padding: 2px 10px 2px 10px;
+	color: #808080;
+}
+
+.ep_toolbox_content {
+	padding: 10px;
+	background: #e7e9f5 url(images/toolbox.png) repeat-x;
+	border: solid 1px #d8dbef;
+}
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/upload.css */
+
+
+/* 
+   Styles for the upload component.
+
+   ep_upload_*
+
+*/
+
+.ep_upload_newdoc
+{
+	text-align: center;
+/*	margin-top: 1em;
+	margin-bottom: 1em; */
+}
+
+.ep_upload_fields th
+{
+	text-align: right;
+}
+
+/* Document section */
+
+.ep_upload_doc
+{
+	margin-bottom: 0.5em;
+	background: #e7e9f5 url(images/toolbox.png) repeat-x;
+	border: solid 1px #d8dbef;
+}
+
+.ep_upload_doc .ep_upload_doc_title_bar {
+	padding: 0px 6px 0px 6px; 
+	border-bottom: solid 1px #d8dbef;
+}
+.ep_upload_doc .ep_upload_doc_title {
+	color: #444;
+}
+.ep_upload_doc .ep_upload_doc_content {
+	clear: both;
+	padding: 6px;
+}
+
+.ep_update_doc_delete {
+	white-space: nowrap;
+}
+.ep_update_doc_delete input {
+	vertical-align: -2px;
+}
+
+.ep_update_doc_options {
+	white-space: nowrap;
+}
+.ep_update_doc_options img {
+	vertical-align: -2px;
+	border: none;
+}
+.ep_update_doc_options a {
+	text-decoration: none;
+}
+
+.ep_upload_doc_toolbar
+{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+.ep_upload_files
+{
+/*	border: dashed #c8cbdf 1px; 
+	text-align: center;
+	margin-top: 0.5em; 
+	padding: 0.5em; 
+	background-color: white; */
+}
+
+.ep_upload_file_table 
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.5em;
+}
+.ep_upload_add_file_toolbar
+{
+	margin-top: 0.5em;
+}
+
+.ep_upload_doc_expansion_bar
+{
+	text-align: right;
+	padding: 2px .5em;
+}
+.ep_upload_doc_expansion_bar a
+{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* End of Document section */
+
+
+
+/* From: /usr/share/eprints3/lib/static/style/auto/view.css */
+
+
+
+.ep_view_page h2 {
+	margin-top: 3em;
+	border-bottom: solid 1px #808080;
+}
+
+.ep_view_timestamp {
+	margin-top: 3em;
+	text-align: right;
+}
+
+.ep_view_subjects {
+	padding: 10px;
+	background: #e7e9f5 url(images/toolbox.png) repeat-x;
+	border: solid 1px #d8dbef;
+	margin-bottom: 20px;
+}
+
+.ep_view_blurb {
+	margin-top: 20px;
+}
+
+.ep_view_group_by_current {
+	font-weight: bold;
+}
+
+.ep_view_group_by {
+	border-top: 1px solid rgb(216, 219, 239); 
+	border-bottom: 1px solid rgb(216, 219, 239);
+	text-align: center;
+	background: #e7e9f5 url(images/toolbox.png) repeat-x;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-bottom: 0.75em;
+	margin-top: 0.25em;
+}
+
+.ep_view_cols {
+	width: 100%;
+	margin-top: 1em;
+}
+
+.ep_view_cols_2 td { width: 50%; }
+.ep_view_cols_3 td { width: 33.3%; }
+.ep_view_cols_4 td { width: 25%; }
+.ep_view_cols_5 td { width: 20%; }
+.ep_view_cols_6 td { width: 16.6%; }
+.ep_view_cols_7 td { width: 14.28%; }
+.ep_view_cols_8 td { width: 12.5%; }
+
+.ep_view_cols ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+	
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare.css */
+
+.ed_content_container {
+	border-left: 2px solid #cccccc;
+	border-right: 2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+}
+
+.ep_user_menu .ep_name_citation {
+	color: #000;
+}
+
+/* Styling for the key tools bar at the top of the screen */
+
+ul.ep_toolbar {
+	display: inline;
+	list-style: none;
+}
+
+ul.ep_toolbar li {
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+ul.ep_toolbar li a {
+	color: #f0f0f0;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ul.ep_toolbar li a:hover {
+	text-decoration: underline;
+}
+
+/* summary box styling */
+
+.ep_summary_box {
+	border-color: #c4caf2;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.ep_summary_box_title {
+	background-image: url('images/bar_bg.png');
+	border-style: none;
+	border-width: 0;
+	padding: 7px 2px 7px 12px;
+}
+
+.ep_box_collapse_link {
+	color: #ffffff;
+	font-family: verdana, aral, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.ep_summary_box_body {
+	background-color: #ffffff;
+	background-image: url('images/box_bg.png');
+	background-repeat: repeat-x;
+	border-style: none;
+	border-width: 0;
+}
+
+.ed_user_profile {
+	float: right;
+	background-image: url('images/box_bg.png');
+	border: 1px solid #c4caf2;
+	margin: 5px;
+	padding: 10px;
+	text-align: right;
+}
+
+.ep_form_action_button {
+	background-image: url('images/button_bg.png');
+	border: 1px solid #3c5464;
+	margin: 2px;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare_abstract.css */
+
+h2.ep_abstractpage_header
+{
+	font-size:16px;
+	font-weight: bold;
+	text-align: center;
+	color: #11233b;
+}
+
+ul.ed_creatorsname
+{
+	padding-left:0px;
+}
+
+.ed_creatorsname
+{
+	padding:0;
+	margin:0;
+}
+
+.ed_creatorsname > li
+{
+	display:inline;
+}
+
+.ed_abs_rightbar
+{
+	float:right;
+	width:330px;
+	padding-left: 15px;
+}
+
+.ed_abs_rightbar .ep_block h2
+{
+	margin-top:0;
+}
+
+.ed_abs_rightbar .ep_block
+{
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+}
+
+.ed_abs_leftcontent
+{
+	float:left;
+	width: 580px;
+}	
+
+.ep_preview_plus_container
+{
+	margin-bottom: 15px;
+	border: 3px solid #C4D7ED;
+}
+
+.ep_sneep_lastmod
+{
+	color: #AAAAAA;
+	font-size: 11px;
+	margin-left: 30px;
+	font-style: italic;
+}
+
+.ep_sneep_content
+{
+	margin: 5px 0px 10px 30px;
+}
+
+.ep_sneep_comment
+{
+	border-bottom: 1px dashed #C4D7ED;
+	padding-bottom: 10px;
+}
+
+#sneep_note_submit
+{
+/*	margin: 20px 0;*/
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+#sneep_comment_submit
+{
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}	
+
+.ep_sneep_comment_form
+{
+	margin: 0;
+	padding: 0;
+}
+
+.ep_sneep_input{
+	width: 50%;
+}
+
+.ep_sneep_input_content{
+	width: 430px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+}
+
+.ep_sneep_input 
+{
+        font-family: Arial;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #ccc;
+}
+
+.ep_sneep_input:focus 
+{
+        outline: 0;
+        border-color: #333;
+}
+
+div#ep_edshare_toolbox ul 
+{
+	padding: 0;
+}
+
+#ep_preview_plus_area, #ep_preview_plus_controls, #ep_inplace_controls_container{
+	width: auto;
+}
+
+#ep_preview_plus_area
+{
+	margin:0;
+	padding:0;
+        height: 425px;
+        overflow-x: hidden;
+}
+
+.ep_metadata_table {
+	border-collapse: collapse;
+}
+.ep_metadata_table td.ep_row{
+	border: none;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:left;
+}
+
+.ep_metadata_table th.ep_row {
+	width:25%;
+	border: none;
+	vertical-align:middle;
+	text-align:left;
+}
+
+
+.ep_abs_collection_render{
+	list-style:none;
+	/*margin-right: 345px;*/
+	border-bottom:1px solid #C4D7ED;
+	margin-bottom: 0.5em;
+}
+
+.ep_abs_collection_render .clearer{
+	clear: left;
+}
+
+.ep_abs_parents  {
+	padding-bottom:15px;
+	width:625px;
+}
+
+.ep_inplace_tile_container{
+	overflow:hidden;
+        width: 100px;
+        height: 90px;
+        margin: 0px;
+        padding: 2px 0px 0px 0px;
+
+}
+
+.ep_inplace_tile_container span{
+	display: block;
+	height: 24px;
+	overflow: hidden;
+        line-height:auto;
+        font-size:10px;
+        font-weight:bold;
+}
+
+.ep_preview_plus_video
+{
+        display:block;
+        width:610px;
+        height:420px;
+        text-align:center;
+        margin:auto;
+}
+
+.ep_inplace_info_container
+{
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 1px solid #C4D7ED;
+        background-color: #E8F3FA;
+}
+
+.ep_inplace_pagingbar_container
+{
+        border-top: 1px solid #C4D7ED;
+        padding: 2px;
+}
+
+#ep_inplace_controls_container
+{
+	height: 166px;
+        border-top: 3px solid #C4D7ED;
+}
+
+.ep_inplace_pages_container
+{
+        float: right;
+        margin: 0px;
+}
+
+.ep_preview_plus_tile_empty
+{
+        height:88px;
+        margin:0;
+        padding:0;
+        width:105px;
+}
+
+.ep_preview_plus_tile
+{
+        border: 1px solid #ffffff;
+        width: 105px;
+        height: 88px;
+        margin: 0px;
+        padding: 0px;
+}
+
+.ep_preview_plus_tile_selected
+{
+        border: 1px solid #ffffff;      /*#C4D7ED;*/
+        background-color: #E8F3FA;
+}
+
+td:hover.ep_preview_plus_tile
+{
+        border: 1px solid #C4D7ED;
+}
+
+.ep_preview_plus_controls
+{
+        height: 92px;
+        padding: 0px;
+}
+
+#ep_inplace_next_button
+{
+        float:right;
+        margin:23px 5px 0px 0px;
+        width:29px;
+        padding: 0px;
+}
+
+#ep_inplace_previous_button
+{
+        float:left;
+        margin:25px 0px 0px 5px;
+        width:29px;
+        padding: 0px;
+}
+
+.ep_inplace_page_image
+{
+        display: inline;
+        padding: 2px 5px;
+}
+
+.ep_inplace_page_container
+{
+        cursor: pointer;
+        font-weight: normal;
+        text-decoration:none;
+}
+
+.ep_inplace_page_container_selected
+{
+        font-weight: bold;
+        text-decoration:none;
+}
+
+
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare_fonts.css */
+
+body
+{
+	font-size:12px;
+}
+
+div.ep_sr_title, div.ep_sr_title_bar
+{
+	font-size:14px;
+}
+
+.ep_sr_component .ep_sr_title_bar *, .ep_sr_collapse_bar * 
+{
+	font-size:14px;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare_local.css */
+
+body{
+	background-color:#CCCCCC;
+/*	font-family:Georgia,serif;*/
+	margin:0;
+	padding:0;
+}
+
+input{
+/*	font-family:Georgia,serif;*/
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:#183152;
+	font-family:Georgia,serif;
+}
+
+h1{
+	text-align:left;
+}
+
+h2{
+	font-size: 150%;
+}
+
+.ep_form_action_button, .ep_form_internal_button{
+	background-color:#90B9E2;
+	background-image:none;
+	border:1px solid #90B9E2;
+	padding: 0px 6px;
+}
+.ep_form_button_bar{
+	background-image:none;
+	background-color:#FFFFFF;
+	border: solid 1px #C4D7ED;
+}
+a{
+	text-decoration:none;
+	color:#4C739C;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color:#4C739C;
+}
+
+.ep_summary_box{
+	border: solid 1px #C4D7ED;
+}
+
+.ep_summary_box_title {
+	border:0;
+	background-image: none;
+	background-color: white;
+	color:#183152;
+}
+.ep_box_collapse_link  {
+	color:#183152;
+/*	font-family:Georgia,serif;*/
+}
+
+.ep_summary_box_body{
+	border:0;
+	padding: 10px;
+	background-image:none;
+	background-color: white;
+}
+
+.ep_block{
+	padding: 10px;
+	background-image:none;
+	border: solid 1px #C4D7ED;
+	text-align:center;
+}
+.ep_block p 
+{
+	margin: 1em 0em;
+}
+.meprints_widget_wrapper{
+	width:860px;
+}
+
+.ep_profile_column{
+	width: 410px;
+}
+
+.meprints_box{
+	border: solid 1px #C4D7ED;
+	margin-bottom: 10px;
+	width: 400px;
+}
+
+.meprints_box_title {
+	font-family: Georgia, serif;
+        background-image: none;
+        border-style: none;
+        border-width: 0;
+        padding: 7px 2px 7px 12px;
+	font-size:115%;
+	color:#183152;
+	font-weight:bold;
+}
+.meprints_box_body {
+        background-color: #ffffff;
+        background-image: none;
+        background-repeat: repeat-x;
+        border-style: none;
+        border-width: 0;
+	padding: 0 12px 7px 12px;
+	font-family:verdana,sans-serif;
+}
+
+.ed_main_container{
+	width:1000px;
+	margin:auto;
+}
+
+.ed_user_profile{
+	color:#FFFFFF;
+	width: 100%;
+	padding:0;
+	text-align:left;
+	margin: 0;
+	border:0;
+	float:none;
+	border-color:#C4D7ED;
+	background-image:none;
+	background-color:#4C739C;
+}
+
+.ed_user_profile a{
+	color:#E8F3FA;
+}
+
+.ed_status_wrapper{
+	/*padding: 5px 10px;*/
+}
+
+.ed_content_container{
+	background-color: #FFFFFF;
+	border:0;
+	font-family: Arial, sans-serif;
+}
+
+.ed_footer_container{
+	padding:20px;
+	margin:auto;
+	text-align:center;
+	font-size: 85%;
+}
+
+.ed_logo{
+	text-align:left;
+	color: #FFFFFF;
+	padding: 20px;
+	font-size: 300%;
+	
+}
+
+.ed_logos_bar{
+	height:88px;	
+}
+
+div.ed_topbar  {
+	padding:0;
+	background-image:url('images/blueflash.png');
+	background-color:#4C739C;
+	border:0;
+	height: 150px;
+}
+div.ed_topbar_tools {
+	margin-top:0;
+}
+input.ed_topbar_search_button{
+	margin-right: 10px;
+	padding: 3px 8px;
+	background-color:#90B9E2;
+	border:0;
+	color: #FFFFFF;
+}
+
+.ed_topbar_search_text{
+	margin-top:7px;
+	padding: 5px 2px !important;
+	width: 15em;
+	border:1px solid #183152;
+}
+
+ul.ep_tm_menu {
+	background:none repeat scroll 0 0 transparent;
+	clear:none;
+	margin:0;
+	margin-top: -5px;
+}
+
+ul.ep_tm_menu li {
+	border:medium none;
+	color:#FFFFFF;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:47px;
+	line-height:47px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:104px;
+}
+
+ul.ep_tm_menu li a, ul.ep_tm_menu li a:visited, ul.ep_tm_menu li a:hover {
+	background-color:transparent;
+	color:#FFFFFF;
+	display:block;
+	font-size:150%;
+	font-weight:normal;
+	height:47px;
+	text-decoration:none;
+	width:104px;
+}
+ul.ep_tm_menu li:hover {
+	background-color:transparent;
+	text-decoration:underline;
+}
+
+h1.ed_page_title{
+	background-color: #E8F3FA;
+	font-size: 140%;
+	color:#183152;
+	margin: 0;
+	font-family:Georgia,serif;
+	padding: 15px 15px 15px 20px;
+	border-bottom: 1px solid #C4D7ED;
+}
+
+.ep_tm_key_tools{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.ep_tm_key_tools li, .key_tools_extras{
+	float:left;
+	border-right: 2px solid #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+ul.ep_tm_key_tools li
+{
+	padding: 0;
+}
+
+.ep_tm_key_tools li a, .key_tools_extras a, .ep_tm_key_tools li a:visited, .key_tools_extras a:visited {
+        display:block;
+        padding: 5px 20px;
+        text-decoration:none;
+        color:#E8F3FA;
+}
+
+
+.ep_tm_key_tools li a:hover, .key_tools_extras a:hover {
+	background-color: #90B9E2;
+	text-decoration:none;
+	color:#E8F3FA;
+}
+
+
+.ep_advanced_search_link, .ep_advanced_search_link:hover, .ep_advanced_search_link:visited {
+	margin-top:-1px;
+	padding:0 100px;
+	font-size: 85%;
+	font-family: Arial, sans-serif;
+	color:#ffffff;
+	display:block;
+	text-align:right;
+}
+
+.clearer{
+	height:0px;
+	width:100%;
+	clear: both;
+}
+
+.ed_page_content{
+	color:#183152;
+	margin: 0;
+	padding: 15px;
+}
+
+.ep_search_controls, .ep_search_controls_bottom, .ep_search_buttons{
+	background: none repeat-x scroll 0 0 transparent;
+	border:1px solid #C4D7ED;
+}
+
+.ep_user_image{
+	padding:1px 3px 1px 0;
+	vertical-align: middle;
+}
+
+.ep_name_citation .person_name{
+	font-weight:normal;
+}
+.ep_front_latest{
+        width: 49%;
+        float:right;
+        border-left: 1px solid #C4D7ED;
+}
+
+.ep_search_bookmark{
+	display: none;
+}
+.ep_paginate_list .ep_search_bookmark{
+	display: block;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare_local_frontpage.css */
+
+.marketing{
+	float:left;
+	width:32%;
+	padding-right:5px;
+}
+
+.marketing img{
+	float:left;
+}
+
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare_manage_shares.css */
+
+.ep_manageable_data_viewperms{
+	padding-left: 30px;
+}
+
+.ep_manageable {
+	border-color: #C4D7ED !important;
+}
+
+.ep_manageable.ep_manageable_selected, .ep_manageable:hover, .ep_manageable.ep_manageable_selected:hover {
+	border-color:#4C739C !important;
+}
+
+.ep_manageable {
+	background-color: #FFFFFF !important; 
+	border-style:solid;
+	border-width:1px !important;
+	margin:2px;
+	padding:10px;
+	text-align:left;
+}
+
+.ep_resourcemanager_filters{
+	margin: auto;
+	text-align:center;
+}
+
+.ep_manageable_selected
+{
+	background-color: #E8F3FA !important;
+}
+
+.ep_manageable_list
+{
+	margin-top: 10px;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare_profile.css */
+
+#ep_profile_TopTen_content_inner table {
+	width: 100%;
+}
+
+#ep_profile_TopTen_content_inner table tr td:last-child {
+	width: 15%;
+	text-align: center;
+}
+
+div.ed_profilepic_box  {
+	background-color:#FFFFFF;
+	border:1px solid #C4D7ED;
+	margin-bottom:1em;
+	padding:10px;
+}
+
+#left_core_widget{
+	width: 75%;
+}
+#right_core_widget{
+	width: 25%;
+}
+
+.ep_column_item_static{
+	border:1px solid #C4D7ED;
+	margin-bottom: 10px;
+	padding:10px;
+}
+
+.ep_column_item_static h2{
+	margin-top:0;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.repostats_toptable{
+	width: 100%;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare_search.css */
+
+.ep_search_container{
+	border-top: 1px solid #C4D7ED;
+	padding: 10px ;
+}
+
+.ep_search_body{
+	margin-left: 85px;
+}
+
+.ep_search_icons{
+	width: 75px;
+	float: left;
+	padding-right: 5px;
+}
+
+.ep_search_title{
+	display: block;
+	padding: 5px 0;	
+	font-size: 120%;
+	font-weight:bold;
+}
+
+.ep_search_bookmark{
+	float:right;
+}
+
+.ep_search_abstract{
+	padding-left:1em;
+	padding-right:1em;
+	text-align: justify;
+}
+
+.ep_search_body .ep_user_citation_picture{
+	padding-right: 50px;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare_views.css */
+
+.ep_view_menu ul{
+	list-style: none;
+	padding-left: 30px;	
+}
+.ep_view_menu ul li{
+	padding 10px;
+	margin: 10px;
+}
+
+.ep_view_browse_list ul{
+	font-size: 130%;
+	font-weight: bold;
+	list-style: none;
+	padding 10px 10px 10px 30px;
+}
+
+.ep_view_browse_list ul li {
+	padding: 15px;
+	margin: 10px;
+	border:1px solid #C4D7ED;
+	width: 50%;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_edshare_workflow.css */
+
+table, tbody, tr, th, td{
+	padding: 0;
+}
+.ep_sr_component .ep_sr_title_bar, .ep_sr_collapse_bar {
+	background-image:none;
+	background-color:#4C739C;
+	border: 0;
+	padding:0 0 0 25px;
+}
+
+.ep_sr_component .ep_sr_title_bar *, .ep_sr_collapse_bar * {
+	background-image:none;
+	background-color: #E8F3FA;
+	border: 0;
+}
+
+div.ep_sr_collapse_bar 
+{
+	width: 95%;
+}
+
+a.ep_sr_collapse_link
+{
+	display: block;
+	width: 100%;
+	background-image:none;
+	background-color: #E8F3FA;
+	padding: 3px 8px;
+}
+a.ep_toggle
+{
+	padding: 0;
+}
+
+.ep_sr_title{
+	padding: 3px 8px;
+} 
+
+.ep_sr_component .ep_sr_content {
+	background-color:#ffffff;
+	background-image:none;
+        border: 0;
+}
+
+.ep_sr_show_help, .ep_sr_hide_help {
+	padding-right: 4px;
+}
+
+table.ep_multi tbody tr{
+	border-bottom: solid 1px #C4D7ED;
+}
+td.ep_multi_input, th.ep_multi_heading, td.ep_multi_help { 
+	border: 0;
+	padding:2px;
+}
+
+.ep_form_field_input{
+	width:75%;
+	margin:auto;
+}
+.ep_tab_panel {
+	background:none repeat-x scroll 0 0 transparent;
+	border-bottom:1px solid #C4D7ED;
+	border-left:1px solid #C4D7ED;
+	border-right:1px solid #C4D7ED;
+}
+td.ep_tab{
+	background-color:#E8F3FA;
+	background-image:none;
+	border:1px solid #C4D7ED;
+	text-align:center;
+}
+td.ep_tab_spacer {
+	border-bottom:1px solid #C4D7ED;
+}
+
+.ep_upload_doc .ep_upload_doc_title_bar {
+	border-left:1px solid #C4D7ED;
+	border-right:1px solid #C4D7ED;
+	border-top:1px solid #C4D7ED;
+	border-bottom:1px solid #C4D7ED;
+}
+.ep_upload_doc {
+	background:none repeat-x scroll 0 0 transparent;
+	margin-bottom:1px;
+}
+
+.ep_upload_doc .ep_upload_doc_content {
+	border:1px solid #C4D7ED;
+	border-top: 0;
+}
+
+.ep_upload_newdoc {
+	margin-bottom:1px;
+	margin-top:0;
+}
+
+div.edshare_perms_selected, a.edshare_perms_selected, a.edshare_perms_selected:hover {
+	background-color: white;
+	border:1px solid #C4D7ED;
+}
+
+a.edshare_perms_selected, a.edshare_perms_selected:hover {
+	border-bottom: 0;
+}
+
+a.edshare_perms_nonselected:hover {
+	background-color:#E8F3FA;	
+}
+select, input.ep_form_text, textarea {
+	border:1px solid #C4D7ED;
+}
+
+/*
+.ep_upload_doc_content .ep_block, .ep_upload_files {
+	display:none;	
+}
+*/
+
+div.edshare_perms_selected_users_title, div.edshare_perms_selected_users_box, div.edshare_perms_selected_depts_box, div.edshare_perms_selected_depts_title, div.edshare_perms_new_user, div.edshare_perms_new_dept {
+	background-color: #E8F3FA;
+
+}
+a.edshare_perms_nonselected, a.edshare_perms_selected, a.edshare_perms_selected:hover, div.edshare_perms_selected_users_title, div.edshare_perms_selected_depts_title   {
+	color:#183152;
+}
+
+.ed_taglite_input{
+	margin: 10px 2px;
+}
+
+.ep_form_action_button, .ep_form_internal_button {
+	background-color:#90B9E2;
+	background-image:none;
+	border:1px solid #90B9E2;
+	padding:0 6px;
+	margin: 2px;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/x_frontpage.css */
+
+.ep_fp_news_div{
+	margin-top: 20px;
+}
+.ep_fp_news_div p{
+	font-size: 80%;
+}
+.ep_fp_title {
+	position: absolute; z-index: 40; color:white;
+}
+.ep_fp_inline {
+	display: inline;
+}
+.ep_fp_fronttext {
+	font-family: Georgia; font-size: 16pt; width: 550px;position: absolute; z-index: 35; top: 2em; padding: 10px; color: white;
+}
+.ep_fp_frontimage {
+	width:878px; position:absolute;
+}
+.ep_fp_panel_right {
+	float: right; padding: 0 10px; width: 47%;
+}
+.ep_fp_panel_left {
+	width: 49%
+}
+.ep_fp_footer_right {
+	float: right; margin: 1em; margin-top:0.3em
+}
+.ep_fp_footer_left {
+	float: left; margin: 1em; margin-top:0.3em
+}
+.ep_fp_footer_centre {
+	font-size: 80%;
+}
+#slide-show{
+	width:878px;
+	padding-left: 55px;
+	z-index: -30;
+}
+
+#slide-images{
+    position:relative;
+    display:block;
+    margin:0px;
+    padding:0px;
+    width:878px;
+    height:300px;
+    overflow:hidden;
+}
+
+#slide-images li{
+    position:absolute;
+    display:block;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    background-color:#FFFFFF;
+}
+
+#slide-images li img{
+    display:block;
+    background-color:#FFFFFF;
+}
+.ed_fp_search_table{
+	width:100%;
+}
+
+.ep_front_lastest{
+	width: 49%;
+	float:right;
+}
+
+.ep_front_tag_cloud{
+	width: 50%;
+	float:left;
+}
+
+#front_tag_cloud{
+	padding: 1em;
+}
+
+
+
+/* From: /usr/share/eprints3/archives/humbox/cfg/static/style/auto/z_humbox.css */
+
+.ep_summary_content_main {
+	padding: 0 5px;
+}
+.ep_sneep_input_content {
+	width:95%;
+	height:100px;
+}
+#ep_inplace_controls_container{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.ep_sneep_comment_list{
+	padding-top: 10px;
+}
+.griditem .ep_bookmark_link{
+	padding: 5px;
+	float:right;
+	width: 120px;
+}
+
+#recaptcha_widget_div{
+	margin-bottom:20px !important;
+}
+
+.abstract_content_left .ep_bookmark_link{
+	display:none;
+}
+
+.ep_email_subject{
+	width: 50%;
+}
+
+.ep_email_body{
+	height:220px;
+	width: 80%;
+}
+
+#c2_rights_declaration_cell_0_0 > input{
+	margin: 3px;
+	vertical-align:middle;
+}
+body {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f7f7f7;
+}
+
+img {
+	border:0;
+}
+
+a {
+	color: #5b639b;
+	text-decoration: none;
+}
+
+.ep_msg_message {
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:5px;
+	margin-right:9px;
+	padding-top:5px;
+}
+
+.ep_msg_warning_content {
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.ep_search_buttons {
+	margin-bottom:0px;
+}
+
+.ep_toolbar {
+	float:left;	
+}
+
+p.ep_oa_notice {
+	margin-top: 2em;
+	font-size: 90%;
+	margin-bottom:0px;
+}
+
+.ep_tm_header {
+	width:100%;
+	height:98px;
+	text-align:center;
+	margin-bottom:1px;
+}
+
+div.ed_topbar {
+	background-image: url(/style/images/header_gradient.png);
+	height:98px;
+	border-bottom: solid 1px #64819c;
+	text-align: left;
+	margin: 0 auto;
+
+}
+
+.ed_topbar_tools td form{
+	height: 23px;
+	display: block;
+	position: relative;
+}
+
+.ed_logos_bar {
+	margin-top:5px;
+	margin-right:5px;
+	float:right;
+	width: 170px;
+	height:86px;
+	background: url(/images/Hum_box_Logo.gif) no-repeat;
+}
+
+.ed_logos_bar h1{
+	display: none;
+}
+
+.ep_column_clear {
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+	width: 100%;
+	clear: both;
+}
+
+.ed_topbar_tools {
+	padding-top:50px;
+}
+
+ul.ep_tm_menu {
+	margin:0px;
+	padding:0px;
+	clear:none;
+	background: none;
+
+}
+
+.ed_user_profile {
+	border-bottom: 2px solid #e0e0d5;
+}
+
+.ep_navmenu li {
+	display:inline;
+	background: url(../images/seperator.gif) left center no-repeat;
+	padding-left:17px;
+}
+
+ul.ep_tm_menu .selected, ul.ep_tm_menu li:hover {
+	background-image: url(/style/images/list_border_gradient.png);
+}
+
+ul.ep_tm_menu li {
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-image: url(/style/images/list_border_gradient.png);
+	display:block;
+	float:left;
+	height:47px;
+	width:104px;
+	text-align: center;
+	font-size: 12px;
+	line-height:47px;
+	padding:0;
+	margin:0;
+	border-bottom:0;
+	padding-right:1px;
+	color:#5B639B;
+}
+
+ul.ep_tm_menu li a, ul.ep_tm_menu li a:visited, ul.ep_tm_menu li a:hover {
+	text-decoration: none;
+	display: block;
+	height:47px;
+	color:#5B639B;
+	font-weight: normal;
+        font-size: 115%;
+}
+
+ul.ep_tm_menu li a:hover {
+	background-image: url(/style/images/list_gradient.png);
+}
+
+.ed_content_container {
+	border-left: 1px solid #64819c;
+	border-right: 1px solid #64819c;
+	border-bottom: 1px solid #64819c;
+
+}
+
+.ep_tm_searchbar {
+	width:100%;
+	font-size:14px;
+	color: #1a355a;
+}
+
+.ep_tm_content ul {
+	margin-bottom:0px;
+	padding-bottom:12px;
+}
+
+.ep_tm_content form {
+	padding-left: 10px;
+	padding-right: 10px;
+	display:block;
+}
+
+.ep_tm_content .ep_search_controls, .ep_tm_content .ep_search_controls_bottom {
+	margin-left:10px;
+	margin-right:10px;
+	border:1px solid #D8DBEF;
+}
+
+.ep_form_button_bar {
+	margin-bottom: 0px !important;
+}
+
+.ed_page_content h1 {
+	font-weight: normal;
+	font-size: 24px;
+	font-family: Georgia, serif;
+	margin: 0px;
+	padding: 10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	color: #1a355a;
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 22px;
+	font-family: "Trebuchet MS",Verdana,arial,helvetica,sans-serif;
+	margin:0px;
+	padding: 15px 10px 5px 0;
+	color: #1a355a;
+}
+
+.ep_top_controlbox {
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-top: 0px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-image: url(../images/seperator_main.gif);
+	border-top: 3px solid #e0e0d5;
+	font-size: 14px;
+	color: #1b232a;
+	text-align: left;
+	padding: 55px 0 5px 0;
+}
+
+.ep_top_controlbox div.content {
+	float: right; 
+	border: padding: 5px; 
+	width: 100%
+}
+
+.ep_top_controlbox div.content img {
+	float: right;
+	margin: 5px;
+}
+
+div.clearer {
+	clear: both;
+	line-height: 0;
+	height: 0;
+}
+
+.ep_top_controlbox label {
+	display:block;
+}
+
+.ed_page_content p {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:12px;
+	padding-bottom:12px;
+}
+
+div.ep_block #content_block {
+	width: 550px;
+}
+
+.ep_tm_footer {
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-image: url(../images/footer_bg.gif);
+	width: 866px;
+	height: 58px;
+	margin: 0 auto 15px auto;
+	padding: 15px 10px 15px 10px;
+	font-size:14px;
+        overflow: hidden;
+}
+
+
+
+.ed_abs_rightbar {
+	float:right;
+	width:276px;
+	text-align: left;
+	clear:none;
+	color: #1a355a;
+	font-size: 12px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-image: url(../images/side_seperator.gif);
+}
+
+.ed_abs_rightbar h2 {
+	text-align: center;
+	font-size: large;
+	font-weight: normal;
+	width: 100%;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #B3B7BA;
+}
+
+.ed_abs_rightbar .ep_block {
+	border:0;
+}
+
+.ep_tm_searchbox label {
+	color:#1a355a;
+	font-size:12px;
+	line-height:24px;
+	float:left;
+	font-weight: bold;
+	display:none;
+}
+
+.ep_tm_searchbox {
+	height:24px;
+	margin-top:10px;
+}
+
+.ep_tm_searchbox #q {
+	background-position: 0 top;
+	background-image: url(../images/searchbox.gif);
+	background-repeat: no-repeat;
+	width:140px;
+	border-width: 0px;
+	padding:4px 0 2px 7px;
+	height:18px;
+	float:right;
+	background-color: transparent;
+}
+
+.ep_tm_searchbox img {
+	float:right;
+}
+
+/*
+.toggler {
+	text-align:right;
+	width:244px;
+	height:21px;
+	text-align: center;
+	width:98%;
+	margin-right:10px;
+	margin-top:10px;
+	color: #1b232a;
+	font-size:9pt;
+	line-height:15pt;
+	clear:left;
+}
+
+.toggler a {
+	display:block;
+	height:21px;
+	width:122px;
+	color: #1b232a;
+}
+
+.toggler .new_off {
+	background-image: url(../images/toggler/left_off.gif);
+}
+
+.toggler .togglerleft{
+	background-repeat: no-repeat;
+	width:122px;
+	height:21px;
+	float:right;
+}
+
+.toggler .new_on {
+	background-image: url(../images/toggler/left_on.gif);
+}
+
+.toggler .togglerleft:hover {
+	background-image: url(../images/toggler/left_on.gif);
+}
+
+.toggler .togglerright {
+	background-repeat: no-repeat;
+	width:122px;
+	height:21px;
+	float:right;	
+}
+
+.toggler .popular_on, .toggler .togglerright:hover {
+	background-image: url(../images/toggler/right_on.gif);
+}
+
+.toggler .popular_off {
+	background-image: url(../images/toggler/right_off.gif);
+}
+*/
+
+.ep_tm_homeright .loginfields {
+	width:155px;
+	margin-bottom:10px;
+}
+
+
+.feeds {
+	font-size:10px;
+	text-align: right;
+	margin-right: 20px;
+	height:18px;
+	line-height:18px;
+}
+
+.griditem {
+        color: #151a3d;
+        font-size:12px;
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-left:8px;
+        margin-right:8px;
+        padding-bottom:10px;
+        padding-top:10px;
+        font-family: Verdana,Arial,Helvetica,sans-serif;
+        border-top: 1px solid #b3b7ba;
+        overflow: hidden;
+}
+
+.griditem h2 {
+        font-size: 14px;
+        font-family: Verdana,Arial,Helvetica,sans-serif;
+        text-align: left;
+        margin:0;
+        padding:0;
+}
+
+.griditem p {
+        margin:0;
+        padding:0;
+        text-align: left;
+}
+
+.griditem .preview {
+        float:left;
+        margin-right:5px;
+        margin-top:2px;
+        clear:left;
+}
+
+.griditem .preview img {
+        margin-left:10px;
+        padding:6px;
+        float:left;
+        border: 1px solid #e0e0d5;
+}
+
+.griditem .preview .previewData {
+        float:left;
+        margin-top:0px;
+        width:26px;
+        height:42px;
+        display:block;
+        color: #3d4b8c;
+        text-align: center;
+        line-height:20px;
+        font-size:8pt;
+        background-image: url(../images/preview.gif);
+}
+
+.griditem .metadata {
+        float:right;
+        font-size:10px;
+	line-height:12px;
+	overflow:hidden;
+	height: 120px;
+        width:155px;
+        border-left: 2px solid #b3b7ba;
+        padding-left:4px;
+        text-align: left;
+}
+
+.result_body {
+        margin-left: 80px;
+        margin-right: 170px;
+        line-height: 15px;
+        overflow: hidden;
+}
+
+.result_body h2 {
+        line-height: 20px;
+}
+
+.result_body p {
+	text-align:justify;
+        overflow: hidden;
+}
+
+.result_text {
+        overflow: hidden;
+}
+
+.result_more {
+        margin-left: 80px;
+        margin-right: 160px;
+        line-height: 20px;
+        overflow: hidden;
+}
+
+
+
+.ep_tm_homeleft .content_block {
+	margin-bottom:0px;
+	font-size: small;
+}
+
+.ep_tm_homeright .media_controls {
+	width:100%;
+	text-align: center;
+	margin-left:10px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	font-size: large;
+	border-bottom: 1px solid #b3b7ba;
+}
+
+.ep_tm_homeright .metadata {
+	padding-left:10px;
+}
+
+.metadata .leftalign {
+	clear:left;
+	float:left;
+	/*height:20px;*/
+	margin-bottom:5px;
+	font-weight:bold;
+}
+
+.metadata .rightalign {
+	clear:right;
+	float:right;
+	/*height:20px;*/
+	margin-bottom:5px;
+	line-height:12px;
+}
+
+/* White background for tables */
+
+td.ep_columns_cell_inbox {
+	background-color: white;
+}
+
+.ep_form_action_button {
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #e0e0ff #808080 #808080 #e0e0ff;
+	background-image: url(images/faroes_button.png);
+	background-color: #cddae4;
+	color: black;
+	font-weight: normal;
+}
+
+.clearer:after {
+   content: "."; 
+   display: block; 
+   height: 0; 
+   clear: both; 
+   visibility: hidden;
+}
+
+table.infoTable {
+	width: 100%;
+}
+
+table.infoTable td {
+	margin: 0px;
+}
+
+td.infoCaption {
+	vertical-align: top;
+	font-weight: bold;
+}
+
+td.infoCaption #alt {
+	background-color: #E0E0E0;
+}
+
+td.infoValue {
+	vertical-align: bottom;
+	text-align: right;
+}
+
+div.heading h2 {
+	text-align: center;
+}
+
+.ep_document_preview {
+	text-align: left;
+	display: inline-block;
+	width: 240px;
+	padding: 6px;
+	border: 1px solid #E0E0D5;
+	margin: 6px;
+	
+}
+
+.ep_document_preview a img.ep_doc_icon{
+	float: left;	
+	clear: left;
+}
+
+strong{
+	font-weight:bold;
+}
+.ep_search_results{
+	width: 100%;
+}
+
+.ep_summary_content { border-bottom: 2px solid #E0E0D5; }
+.ep_summary_content_bottom { margin: 0 10px; }.ep_fp_news_div{
+	margin-top: 20px;
+}
+.ep_fp_news_div p{
+	font-size: 80%;
+}
+.ep_fp_title {
+	position: absolute; z-index: 40; color: white;
+}
+.ep_fp_inline {
+	display: inline;
+}
+.ep_fp_fronttext {
+	font-family: Georgia; font-size: 16pt; width: 550px;position: absolute; z-index: 35; top: 2em; padding: 10px; color: white;
+}
+.ep_fp_frontimage {
+	width:878px; position:absolute;
+}
+.ep_fp_panel_right {
+	float: right; padding: 0 10px; width: 47%;
+}
+.ep_fp_panel_left {
+	width: 49%
+}
+.ep_fp_footer_right {
+	float: right; margin: 1em; margin-top:0.3em
+}
+.ep_fp_footer_left {
+	float: left; margin: 1em; margin-top:0.3em
+}
+.ep_fp_footer_centre {
+	font-size: 80%;
+}
+
+#slide-images {
+    position:relative;
+    display:block;
+    margin:0px;
+    padding:0px;
+    width:878px;
+    height:300px;
+    overflow:hidden;
+}
+
+#slide-images li{
+    position:absolute;
+    display:block;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    background-color:#FFFFFF;
+}
+
+#slide-images li img{
+    display:block;
+    background-color:#FFFFFF;
+}
+
+.frontpage_gridview .ep_bookmark_link {
+    display: none;
+}
+
+.frontpage_banner {
+    position: relative; 
+    background-color: black;
+    border-top: 1px solid #576e86;
+    border-bottom: 1px solid #576e86;
+}
+
+.frontpage_banner_transp {
+    position: absolute;
+    width: 441px;
+    height: 100%;
+    background-image: url('/images/frontpage/black_transp.png');
+    /*to stop IE6 png problem */
+    _background-image: none;
+    z-index: 30;
+    display: block;
+}
+
+.frontpage_banner h1.frontpage_banner_title {
+    position: absolute; 
+    z-index: 40; 
+    color: white;
+}
+
+.frontpage_banner_text {
+    font-family: Georgia;
+    font-size: 16pt;
+    width: 430px;
+    position: absolute;
+    z-index: 40;
+    top: 2em;
+    padding: 10px;
+    color: white;
+}
+
+.frontpage_banner_text a {
+    color: #fff;
+}
+.frontpage_banner_text a:hover {
+    text-decoration: underline;
+}
+
+.frontpage_info {
+    float: right; 
+    padding: 0 10px; 
+    width: 47%;
+}
+
+.frontpage_info h2 {
+    padding-left: 0px;
+}
+
+.frontpage_recent {
+    width: 49%;
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.frontpage_recent .result_text {
+    font-size: 95%;
+}
+
+.frontpage_recent h2 { padding-left: 10px; }
+
+.frontpage_recent h2,
+.frontpage_info h2 {
+    font-family: "Trebuchet MS", Verdana, arial, helvetica, sans-serif;
+}.ep_footer_right {
+	float: right; 
+	margin: 1em; 
+	margin-top:0.3em;
+}
+
+.ep_footer_left {
+	float: left; 
+	margin: 1em; 
+	margin-top:0.3em;
+}
+.ep_footer_centre {
+	font-size: 80%;
+}
+.ep_login {
+	float: right;
+}
+.inline {
+	display: inline;
+}
+
+.footer_logos {
+     float: right;
+     margin: 0 10px;
+}
+.footer_logos img {
+     vertical-align: middle;
+}
+
+.footer_text {
+     font-size: 80%;
+     margin-top: 15px;
+}
+
+.footer_contact {
+     float: left; 
+     margin: 0 10px;
+}
+
+.ep_tm_content ul {
+	padding-bottom:0;
+}
+
+.ed_user_profile {
+	background-color: #FFFFFF;
+	background-image: url("../images/content_header.gif");
+	background-position: 0 top;
+	background-repeat: repeat-x;
+
+}
+
+ul.ep_tm_key_tools li {
+	border:0;
+}
+
+.ep_tm_key_tools li a, .key_tools_extras a, .ep_tm_key_tools li a:visited, .key_tools_extras a:visited {
+    color: #5B639B;
+	padding: 0 10px;
+	margin: 5px 0;
+    display: block;
+    text-decoration: none;
+	border-right: 1px solid #5B639B;
+    background-color:transparent;
+}
+
+.ep_tm_key_tools li a:hover, .key_tools_extras a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+	color: #5B639B;
+}
+
+.ep_metadata_table td.ep_row {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.ed_abs_leftcontent {
+	width: 680px;
+}
+
+.ed_page_title {
+	display: none; /*this maybe a temporary solution*/
+}
+
+.ed_topbar_contaener, .ed_topbar_container {
+	padding: 0 1px;
+	background: #64819c url(/style/images/border_gradient.png) repeat-x;
+}
+
+.ed_page_content {
+	padding:5px 5px 10px 5px;
+}
+
+.ed_topbar_search_text {
+	background: url("../images/searchbox.gif") no-repeat;
+	padding: 3px 0 3px 7px !important;
+	position:absolute;
+	top:12px;
+	left:0;
+	height:18px;
+	margin:0;
+	width:140px;
+	border: 0;
+}
+
+input.ed_topbar_search_button {
+	position:absolute;
+	top:12px;
+	left:147px;
+	background: url(/images/searchbox_button.gif) no-repeat transparent;
+	width:24px;
+	height:24px;
+	color: transparent;
+	padding: 0 0 0 24px; 
+	overflow:hidden;
+	margin: 0;
+}
+
+.ep_advanced_search_link, .ep_advanced_search_link:hover, .ep_advanced_search_link:visited {
+	color: #5B639B;
+	padding: 0 20px;
+}
+
+.ed_topbar_tools {
+	width:82%;
+}
+
+.ep_manageable_controls ul {
+	padding:0;
+}
